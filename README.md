@@ -1,15 +1,25 @@
 Building docker image
+
 This will download and install the required packages.
 
 Using CPU
+
 docker-compose build stablediff-cpu
+
 Using CUDA
+
 docker-compose build stablediff-cuda
+
 Using ROCm
+
 docker-compose build stablediff-rocm
+
 Setting up launch parameter
+
 Edit stablediff.env to match your use cases.
+
 You can also add launch parameter such as --lowvram.
+
 
 Using CPU
 export COMMANDLINE_ARGS="--listen --no-half --skip-torch-cuda-test"

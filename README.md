@@ -48,3 +48,6 @@ Using CUDA
 docker stop stablediff-cuda-runner
 Using ROCm
 docker stop stablediff-rocm-runner
+
+
+Source: https://github.com/AUTOMATIC1111/stable-diffusion-webui/discussions/5049
